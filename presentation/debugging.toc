@@ -1,0 +1,14 @@
+\beamer@endinputifotherversion {3.33pt}
+\beamer@sectionintoc {1}{Why should we learn to debug?}{2}{0}{1}
+\beamer@subsectionintoc {1}{1}{The ugly truth}{2}{0}{1}
+\beamer@subsectionintoc {1}{2}{The available weapons}{3}{0}{1}
+\beamer@sectionintoc {2}{Python debugging tools}{4}{0}{2}
+\beamer@subsectionintoc {2}{1}{Logging}{4}{0}{2}
+\beamer@subsectionintoc {2}{2}{Tracing}{5}{0}{2}
+\beamer@subsectionintoc {2}{3}{Debugging}{6}{0}{2}
+\beamer@sectionintoc {3}{PDB and IPDB}{7}{0}{3}
+\beamer@subsectionintoc {3}{1}{Introduction}{7}{0}{3}
+\beamer@subsectionintoc {3}{2}{Useful commands}{8}{0}{3}
+\beamer@subsectionintoc {3}{3}{Examples}{9}{0}{3}
+\beamer@sectionintoc {4}{Sources and references}{10}{0}{4}
+\beamer@sectionintoc {5}{Let's practice!}{11}{0}{5}
