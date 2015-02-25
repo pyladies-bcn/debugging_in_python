@@ -67,12 +67,16 @@
 \section{Why should we learn to debug?}
 
 \begin{frame}
-\frametitle{The available weapons}	
-Fortunately, you will not have to face that problem barehanded. Python (and all languages) provides you with some useful weapons ready to use: loggers, tracers, monitoring tools, debuggers...\\
+\frametitle{Why should we learn to debug?}	
 
-So please stop using print commands to try to find the errors ;)\\
+\begin{quote}
+Is this code snippet similar to your tried-and-true debugging techniques? Yeah, that used to be me too.
+\end{quote}
 
-%\lstinputlisting[language=Python]{code/prova.py}
+\lstinputlisting[language=Python]{code/caos.py}
+
+
+{\normalsize Yeah, the print command works, but... What if you don't know where to look? What if you are facing a huge piece of code that was written by a drunken elephant riding a tricyce? There is a better way!}
 
 \end{frame}
 
@@ -86,19 +90,30 @@ So please stop using print commands to try to find the errors ;)\\
 \subsection{Logging}
 \begin{frame}
 \frametitle{Logging}	
-Blablabla
+\begin{quote}
+	{\Large If you do ever litter your code with print statements stop now. Use logging.debug instead. You'll be able to reuse that later, disable it altogether and so on ...}
+\end{quote}
+Take a look at the logging module \url{https://docs.python.org/2/library/logging.html}
 \end{frame}
 
 \subsection{Tracing}
 \begin{frame}
 \frametitle{Tracing}	
-Blablabla
+\begin{quote}
+The trace module allows you to trace program execution, generate annotated statement coverage listings, print caller/callee relationships and list functions executed during a program run. It can be used in another program or from the command line.
+\end{quote}
+Take a look at the trace module \url{https://docs.python.org/2/library/trace.html}\\
+i.e.\\
+\lstinputlisting[language=bash]{code/tracing.txt}
 \end{frame}
 
 \subsection{Debugging}
 \begin{frame}
 \frametitle{Debugging}	
-Blablabla
+\begin{itemize}
+ \item  \textbf{pdb module}: defines an interactive source code debugger for Python programs (\url{https://docs.python.org/2/library/pdb.html})
+ \item \textbf{ipdb module}: exports functions to access the IPython debugger, which features tab completion, syntax highlighting, better tracebacks, better introspection with the same interface as the pdb module (\url{https://pypi.python.org/pypi/ipdb})
+ \end{itemize} 
 \end{frame}
 
 
@@ -111,86 +126,147 @@ Blablabla
 \begin{frame}
 \frametitle{Getting started with \textit{\textbf{ipdb.set\_trace()}}}
 \begin{table}
-\begin{tabular}{p{4.7cm}p{4.7cm}}
-    \lstinputlisting[language=Python]{code/max_of_three.py}&
-    \lstset{basicstyle=\ttfamily\tiny}
-    \lstinputlisting[language=bash]{code/max_of_three_console.txt}
-\end{tabular} 
+    \begin{tabular}{p{4.7cm}p{4.7cm}}
+        \lstinputlisting[language=Python]{code/max_of_three.py}&
+        \lstset{basicstyle=\ttfamily\tiny}
+        \lstinputlisting[language=bash]{code/max_of_three_console.txt}
+    \end{tabular} 
 \end{table}
 \end{frame}
 
 \subsection{autocomplete}
 \begin{frame}
 \frametitle{Take the advantages offered by ipdb with \textit{\textbf{TAB}} (autocomplete)}
-Blablabla
+\begin{table}
+    \begin{tabular}{p{4.7cm}p{4.7cm}}
+        \lstset{basicstyle=\ttfamily\tiny}
+        \lstinputlisting[language=Python]{code/divisible_3_4.py}&
+        \lstset{basicstyle=\ttfamily\tiny}
+        \lstinputlisting[language=bash]{code/divisible_3_4_console.txt}
+    \end{tabular} 
+\end{table}
 \end{frame}
 
 \subsection{next}
 \begin{frame}
 \frametitle{Execute the next statement with \textit{\textbf{n}} (next)}
-Blablabla
+\begin{table}
+    \begin{tabular}{p{4.7cm}p{4.7cm}}
+        \lstinputlisting[language=Python]{code/max_of_three.py}&
+        \lstset{basicstyle=\ttfamily\tiny}
+        \lstinputlisting[language=bash]{code/max_of_three_console2.txt}
+    \end{tabular} 
+\end{table}
 \end{frame}
 
 \subsection{repeat}
 \begin{frame}
 \frametitle{Repeat the last debugging command with \textit{\textbf{ENTER}}}
-Blablabla
+\begin{table}
+    \begin{tabular}{p{4.7cm}p{4.7cm}}
+        \lstinputlisting[language=Python]{code/max_of_three.py}&
+        \lstset{basicstyle=\ttfamily\tiny}
+        \lstinputlisting[language=bash]{code/max_of_three_console3.txt}
+    \end{tabular} 
+\end{table}
 \end{frame}
 
 \subsection{quit}
 \begin{frame}
 \frametitle{Help! How do I quit? with \textit{\textbf{q}} (quit)}
-Blablabla
+\begin{table}
+    \begin{tabular}{p{4.7cm}p{4.7cm}}
+        \lstinputlisting[language=Python]{code/max_of_three.py}&
+        \lstset{basicstyle=\ttfamily\tiny}
+        \lstinputlisting[language=bash]{code/max_of_three_console4.txt}
+    \end{tabular} 
+\end{table}
 \end{frame}
 
 \subsection{print}
 \begin{frame}
 \frametitle{Print the value of a variable with \textit{\textbf{p}} (print)}
-Blablabla
+\begin{table}
+    \begin{tabular}{p{4.7cm}p{4.7cm}}
+        \lstinputlisting[language=Python]{code/max_of_three.py}&
+        \lstset{basicstyle=\ttfamily\tiny}
+        \lstinputlisting[language=bash]{code/max_of_three_console5.txt}
+    \end{tabular} 
+\end{table}
 \end{frame}
 
 \subsection{continue}
 \begin{frame}
 \frametitle{Turning off the (Pdb) prompt with \textit{\textbf{c}} (continue)}
-Blablabla
+\begin{table}
+    \begin{tabular}{p{4.7cm}p{4.7cm}}
+        \lstinputlisting[language=Python]{code/max_of_three.py}&
+        \lstset{basicstyle=\ttfamily\tiny}
+        \lstinputlisting[language=bash]{code/max_of_three_console6.txt}
+    \end{tabular} 
+\end{table}
 \end{frame}
 
 \subsection{list}
 \begin{frame}
 \frametitle{See where you are with \textit{\textbf{l}} (list)}
-Blablabla
+\begin{table}
+    \begin{tabular}{p{4.7cm}p{4.7cm}}
+        \lstinputlisting[language=Python]{code/max_of_three.py}&
+        \lstset{basicstyle=\ttfamily\tiny}
+        \lstinputlisting[language=bash]{code/max_of_three_console7.txt}
+    \end{tabular} 
+\end{table}
 \end{frame}
 
 \subsection{step into}
 \begin{frame}
 \frametitle{Step into subroutines with \textit{\textbf{s}} (step into)}
-Blablabla
+\begin{table}
+    \begin{tabular}{p{4.7cm}p{4.7cm}}
+        \lstinputlisting[language=Python]{code/subroutines.py}&
+        \lstset{basicstyle=\ttfamily\tiny}
+        \lstinputlisting[language=bash]{code/subroutines_console.txt}
+    \end{tabular} 
+\end{table}
 \end{frame}
 
 \subsection{return}
 \begin{frame}
 \frametitle{Continue to the end of the current subroutine with \textit{\textbf{r}} (return)}
-Blablabla
+\begin{table}
+    \begin{tabular}{p{4.7cm}p{4.7cm}}
+        \lstinputlisting[language=Python]{code/subroutines.py}&
+        \lstset{basicstyle=\ttfamily\tiny}
+        \lstinputlisting[language=bash]{code/subroutines_console2.txt}
+    \end{tabular} 
+\end{table}
 \end{frame}
 
 \subsection{some advice}
 \begin{frame}
 \frametitle{...just be a little careful!}
-Blablabla
-\end{frame}
+\begin{table}
+    \begin{tabular}{p{4.7cm}p{4.7cm}}
+        \lstinputlisting[language=Python]{code/max_of_three.py}&
+        \lstset{basicstyle=\ttfamily\tiny}
+        \lstinputlisting[language=bash]{code/max_of_three_console8.txt}
+        What happens is that pdb attempts to execute the "b" command and it interprets the rest of the line as an argument to the "b" command
+    \end{tabular} 
+\end{table}\end{frame}
 
 
 
 
 
 
-\section{Sources and references}
+\section{Sources}
 \begin{frame}
-\frametitle{Sources and references}	
+\frametitle{Sources}	
 \begin{itemize}
-    \item Official documentation: \url{https://docs.python.org/2/library/pdb.html}
     \item Debugging in Python, 2009 post by Steve Ferg: \url{https://pythonconquerstheuniverse.wordpress.com/2009/09/10/debugging-in-python/}
     \item Python debugging tools, 2013 post by ionel's codelog: \url{http://blog.ionelmc.ro/2013/06/05/python-debugging-tools/}
+    \item Debugging Python Like a Boss  \url{https://zapier.com/engineering/debugging-python-boss/}
 \end{itemize}
 \end{frame}
 

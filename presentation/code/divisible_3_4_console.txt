@@ -1,0 +1,13 @@
+$ python divisible_3_4.py
+> .../code/divisible_3_4.py(10)threeAndFour()
+      9             ipdb.set_trace()
+---> 10             result.append(counter)
+     11     return result
+
+ipdb> result.
+result.append   result.count
+result.extend   result.index
+result.insert   result.pop      
+result.remove   result.reverse
+result.sort
+ipdb> result.

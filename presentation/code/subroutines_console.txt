@@ -1,0 +1,20 @@
+$ python subroutines.py
+> .../code/subroutines.py(13)function()
+     12     ipdb.set_trace()
+---> 13     return function2(param_a, param_b)
+     14
+
+ipdb> s
+--Call--
+> .../code/subroutines.py(5)function2()
+      4
+----> 5 def function2(param_a, param_b):
+      6     if param_a > param_b:
+
+ipdb> n
+> .../code/subroutines.py(6)function2()
+      5 def function2(param_a, param_b):
+----> 6     if param_a > param_b:
+      7         return param_a
+
+ipdb>

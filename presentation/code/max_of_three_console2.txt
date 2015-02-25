@@ -1,0 +1,19 @@
+$ python max_of_three.py
+> ...code/max_of_three.py(9)maxOfThree()
+      8     ipdb.set_trace()
+----> 9     if a > b:
+     10         if a > c:
+
+ipdb> n
+> ...code/max_of_three.py(10)maxOfThree()
+      9     if a > b:
+---> 10         if a > c:
+     11             return a
+
+ipdb> n
+> ...code/max_of_three.py(12)maxOfThree()
+     11             return a
+---> 12         return b
+     13     if b > c:
+
+ipdb>

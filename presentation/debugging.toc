@@ -16,5 +16,5 @@
 \beamer@subsectionintoc {3}{9}{step into}{14}{0}{3}
 \beamer@subsectionintoc {3}{10}{return}{15}{0}{3}
 \beamer@subsectionintoc {3}{11}{some advice}{16}{0}{3}
-\beamer@sectionintoc {4}{Sources and references}{17}{0}{4}
+\beamer@sectionintoc {4}{Sources}{17}{0}{4}
 \beamer@sectionintoc {5}{Let's practice!}{18}{0}{5}

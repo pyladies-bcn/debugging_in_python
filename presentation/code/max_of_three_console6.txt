@@ -1,0 +1,9 @@
+$ python max_of_three.py
+> ...code/max_of_three.py(9)maxOfThree()
+      8     ipdb.set_trace()
+----> 9     if a > b:
+     10         if a > c:
+
+ipdb> c
+2
+lpmayos-macbookair:code lpmayos$
