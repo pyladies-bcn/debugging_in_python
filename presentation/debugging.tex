@@ -66,15 +66,6 @@
 
 \section{Why should we learn to debug?}
 
-\subsection{The ugly truth}
-\begin{frame}
-\frametitle{The ugly truth}	
-Your code will break, sooner or later. As you develop it or years after, but it will break and somebody will have to fix it. Ouch!\\
-
-How many of you ...?
-\end{frame}
-
-\subsection{The available weapons}
 \begin{frame}
 \frametitle{The available weapons}	
 Fortunately, you will not have to face that problem barehanded. Python (and all languages) provides you with some useful weapons ready to use: loggers, tracers, monitoring tools, debuggers...\\
@@ -84,6 +75,11 @@ So please stop using print commands to try to find the errors ;)\\
 \lstinputlisting[language=Python]{code/prova.py}
 
 \end{frame}
+
+
+
+
+
 
 \section{Python debugging tools}
 
@@ -107,35 +103,86 @@ Blablabla
 
 
 
+
+
 \section{PDB and IPDB}
 
-\subsection{Introduction}
+\subsection{ipdb.set\_trace()}
 \begin{frame}
-\frametitle{Introduction}	
+\frametitle{Getting started with \textit{\textbf{ipdb.set\_trace()}}}
 Blablabla
 \end{frame}
 
-\subsection{Useful commands}
+\subsection{next}
 \begin{frame}
-\frametitle{Commands}	
+\frametitle{Execute the next statement with \textit{\textbf{n}} (next)}
 Blablabla
 \end{frame}
 
-\subsection{Examples}
+\subsection{repeat}
 \begin{frame}
-\frametitle{Examples}	
+\frametitle{Repeat the last debugging command with \textit{\textbf{ENTER}}}
 Blablabla
 \end{frame}
+
+\subsection{quit}
+\begin{frame}
+\frametitle{Help! How do I quit? with \textit{\textbf{q}} (quit)}
+Blablabla
+\end{frame}
+
+\subsection{print}
+\begin{frame}
+\frametitle{Print the value of a variable with \textit{\textbf{p}} (print)}
+Blablabla
+\end{frame}
+
+\subsection{continue}
+\begin{frame}
+\frametitle{Turning off the (Pdb) prompt with \textit{\textbf{c}} (continue)}
+Blablabla
+\end{frame}
+
+\subsection{list}
+\begin{frame}
+\frametitle{See where you are with \textit{\textbf{l}} (list)}
+Blablabla
+\end{frame}
+
+\subsection{step into}
+\begin{frame}
+\frametitle{Step into subroutines with \textit{\textbf{s}} (step into)}
+Blablabla
+\end{frame}
+
+\subsection{return}
+\begin{frame}
+\frametitle{Continue to the end of the current subroutine with \textit{\textbf{r}} (return)}
+Blablabla
+\end{frame}
+
+\subsection{some advice}
+\begin{frame}
+\frametitle{...just be a little careful!}
+Blablabla
+\end{frame}
+
+
+
 
 
 
 \section{Sources and references}
 \begin{frame}
 \frametitle{Sources and references}	
-http://blog.ionelmc.ro/2013/06/05/python-debugging-tools/
-https://docs.python.org/2/library/pdb.html
-https://pythonconquerstheuniverse.wordpress.com/2009/09/10/debugging-in-python/
+\begin{itemize}
+    \item Official documentation: \url{https://docs.python.org/2/library/pdb.html}
+    \item Debugging in Python, 2009 post by Steve Ferg: \url{https://pythonconquerstheuniverse.wordpress.com/2009/09/10/debugging-in-python/}
+    \item Python debugging tools, 2013 post by ionel's codelog: \url{http://blog.ionelmc.ro/2013/06/05/python-debugging-tools/}
+\end{itemize}
 \end{frame}
+
+
 
 
 

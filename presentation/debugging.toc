@@ -1,14 +1,19 @@
 \beamer@endinputifotherversion {3.33pt}
 \beamer@sectionintoc {1}{Why should we learn to debug?}{2}{0}{1}
-\beamer@subsectionintoc {1}{1}{The ugly truth}{2}{0}{1}
-\beamer@subsectionintoc {1}{2}{The available weapons}{3}{0}{1}
-\beamer@sectionintoc {2}{Python debugging tools}{4}{0}{2}
-\beamer@subsectionintoc {2}{1}{Logging}{4}{0}{2}
-\beamer@subsectionintoc {2}{2}{Tracing}{5}{0}{2}
-\beamer@subsectionintoc {2}{3}{Debugging}{6}{0}{2}
-\beamer@sectionintoc {3}{PDB and IPDB}{7}{0}{3}
-\beamer@subsectionintoc {3}{1}{Introduction}{7}{0}{3}
-\beamer@subsectionintoc {3}{2}{Useful commands}{8}{0}{3}
-\beamer@subsectionintoc {3}{3}{Examples}{9}{0}{3}
-\beamer@sectionintoc {4}{Sources and references}{10}{0}{4}
-\beamer@sectionintoc {5}{Let's practice!}{11}{0}{5}
+\beamer@sectionintoc {2}{Python debugging tools}{3}{0}{2}
+\beamer@subsectionintoc {2}{1}{Logging}{3}{0}{2}
+\beamer@subsectionintoc {2}{2}{Tracing}{4}{0}{2}
+\beamer@subsectionintoc {2}{3}{Debugging}{5}{0}{2}
+\beamer@sectionintoc {3}{PDB and IPDB}{6}{0}{3}
+\beamer@subsectionintoc {3}{1}{ipdb.set\_trace()}{6}{0}{3}
+\beamer@subsectionintoc {3}{2}{next}{7}{0}{3}
+\beamer@subsectionintoc {3}{3}{repeat}{8}{0}{3}
+\beamer@subsectionintoc {3}{4}{quit}{9}{0}{3}
+\beamer@subsectionintoc {3}{5}{print}{10}{0}{3}
+\beamer@subsectionintoc {3}{6}{continue}{11}{0}{3}
+\beamer@subsectionintoc {3}{7}{list}{12}{0}{3}
+\beamer@subsectionintoc {3}{8}{step into}{13}{0}{3}
+\beamer@subsectionintoc {3}{9}{return}{14}{0}{3}
+\beamer@subsectionintoc {3}{10}{some advice}{15}{0}{3}
+\beamer@sectionintoc {4}{Sources and references}{16}{0}{4}
+\beamer@sectionintoc {5}{Let's practice!}{17}{0}{5}
