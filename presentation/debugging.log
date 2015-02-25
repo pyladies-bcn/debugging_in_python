@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.1)  25 FEB 2015 11:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.1)  25 FEB 2015 12:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1157,10 +1157,6 @@ LaTeX Info: Redefining \includegraphics on input line 61.
 
 {/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./pylad
 ies.png>]
-(/usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2014/03/04 1.5c listings language file
-)
-(./code/prova.py)
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <6> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 77.
  [2
@@ -1172,13 +1168,55 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <6> not available
 ] [5
 
 ]
+LaTeX Font Info:    Try loading font information for U+msa on input line 120.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 120.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 120.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <8> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 120.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <6> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 120.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2014/03/04 1.5c listings language file
+)
+(./code/max_of_three.py)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2014/03/04 1.5c listings language file
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2014/03/04 1.5c listings language file
+)
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 120.
+
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+(./code/max_of_three_console.txt)
+Overfull \hbox (10.34016pt too wide) in paragraph at lines 120--120
+ [] 
+ []
+
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <14.4> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 114.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 120.
 LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <14.4> not available
-(Font)              Font shape `T1/phv/b/it' tried instead on input line 114.
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 120.
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <14.4> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 114.
- [6
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 120.
+
+Overfull \vbox (12.57228pt too high) detected at line 120
+ []
+
+[6
 
 ] [7
 
@@ -1186,8 +1224,7 @@ LaTeX Font Info:    Font shape `T1/phv/b/it' in size <14.4> not available
 
 ] [9
 
-]
-[10
+] [10
 
 ] [11
 
@@ -1199,35 +1236,24 @@ LaTeX Font Info:    Font shape `T1/phv/b/it' in size <14.4> not available
 
 ] [15
 
-]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 183.
-
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Try loading font information for U+msa on input line 183.
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 183.
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 183.
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <8> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 183.
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <6> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 183.
- [16
+] [16
 
 ] [17
 
 ]
-[18
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 217.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 217.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <7> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 217.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <5> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 217.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 217.
+ [18
+
+] [19
 
  <./pyladies_logo_border.png>]
 \tf@nav=\write6
@@ -1239,33 +1265,35 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <6> not available
 \tf@snm=\write8
 \openout8 = `debugging.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 201.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 201.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 223.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 223.
  (./debugging.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 201.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 201.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 223.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 223.
 Package rerunfilecheck Info: File `debugging.out' has not changed.
-(rerunfilecheck)             Checksum: 92E6B43C6D80081ACD15D8D28650CF67;1029.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 201.
+(rerunfilecheck)             Checksum: FD070CF328F6B248E1E36302453630DC;1093.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 223.
  ) 
 Here is how much of TeX's memory you used:
- 19040 strings out of 493117
- 351015 string characters out of 6135433
- 480031 words of memory out of 5000000
- 21983 multiletter control sequences out of 15000+600000
- 42995 words of font info for 58 fonts, out of 8000000 for 9000
+ 19214 strings out of 493117
+ 354010 string characters out of 6135433
+ 564381 words of memory out of 5000000
+ 22140 multiletter control sequences out of 15000+600000
+ 62290 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,16n,60p,408b,1347s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,16n,60p,408b,1520s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
-live/2014/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/local/texli
-ve/2014/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2014
-/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/local/texlive/2014/texmf
--dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on debugging.pdf (18 pages, 207002 bytes).
+live/2014/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb></usr/local/texli
+ve/2014/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/local/texlive
+/2014/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/local/texlive/2
+014/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2014/tex
+mf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/local/texlive/2014/texmf-dis
+t/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on debugging.pdf (19 pages, 270669 bytes).
 PDF statistics:
- 535 PDF objects out of 1000 (max. 8388607)
- 493 compressed objects within 5 object streams
- 55 named destinations out of 1000 (max. 500000)
- 202 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 592 PDF objects out of 1000 (max. 8388607)
+ 546 compressed objects within 6 object streams
+ 58 named destinations out of 1000 (max. 500000)
+ 210 words of extra memory for PDF output out of 10000 (max. 10000000)
 

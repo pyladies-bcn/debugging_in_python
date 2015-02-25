@@ -6,14 +6,15 @@
 \beamer@subsectionintoc {2}{3}{Debugging}{5}{0}{2}
 \beamer@sectionintoc {3}{PDB and IPDB}{6}{0}{3}
 \beamer@subsectionintoc {3}{1}{ipdb.set\_trace()}{6}{0}{3}
-\beamer@subsectionintoc {3}{2}{next}{7}{0}{3}
-\beamer@subsectionintoc {3}{3}{repeat}{8}{0}{3}
-\beamer@subsectionintoc {3}{4}{quit}{9}{0}{3}
-\beamer@subsectionintoc {3}{5}{print}{10}{0}{3}
-\beamer@subsectionintoc {3}{6}{continue}{11}{0}{3}
-\beamer@subsectionintoc {3}{7}{list}{12}{0}{3}
-\beamer@subsectionintoc {3}{8}{step into}{13}{0}{3}
-\beamer@subsectionintoc {3}{9}{return}{14}{0}{3}
-\beamer@subsectionintoc {3}{10}{some advice}{15}{0}{3}
-\beamer@sectionintoc {4}{Sources and references}{16}{0}{4}
-\beamer@sectionintoc {5}{Let's practice!}{17}{0}{5}
+\beamer@subsectionintoc {3}{2}{autocomplete}{7}{0}{3}
+\beamer@subsectionintoc {3}{3}{next}{8}{0}{3}
+\beamer@subsectionintoc {3}{4}{repeat}{9}{0}{3}
+\beamer@subsectionintoc {3}{5}{quit}{10}{0}{3}
+\beamer@subsectionintoc {3}{6}{print}{11}{0}{3}
+\beamer@subsectionintoc {3}{7}{continue}{12}{0}{3}
+\beamer@subsectionintoc {3}{8}{list}{13}{0}{3}
+\beamer@subsectionintoc {3}{9}{step into}{14}{0}{3}
+\beamer@subsectionintoc {3}{10}{return}{15}{0}{3}
+\beamer@subsectionintoc {3}{11}{some advice}{16}{0}{3}
+\beamer@sectionintoc {4}{Sources and references}{17}{0}{4}
+\beamer@sectionintoc {5}{Let's practice!}{18}{0}{5}

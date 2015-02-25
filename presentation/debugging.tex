@@ -34,7 +34,7 @@
     keywordstyle=\color{magenta},
     numberstyle=\tiny\color{codegray},
     stringstyle=\color{codepurple},
-    basicstyle=\footnotesize,
+    basicstyle=\scriptsize,
     breakatwhitespace=false,         
     breaklines=true,                 
     captionpos=b,                    
@@ -72,7 +72,7 @@ Fortunately, you will not have to face that problem barehanded. Python (and all 
 
 So please stop using print commands to try to find the errors ;)\\
 
-\lstinputlisting[language=Python]{code/prova.py}
+%\lstinputlisting[language=Python]{code/prova.py}
 
 \end{frame}
 
@@ -110,6 +110,18 @@ Blablabla
 \subsection{ipdb.set\_trace()}
 \begin{frame}
 \frametitle{Getting started with \textit{\textbf{ipdb.set\_trace()}}}
+\begin{table}
+\begin{tabular}{p{4.7cm}p{4.7cm}}
+    \lstinputlisting[language=Python]{code/max_of_three.py}&
+    \lstset{basicstyle=\ttfamily\tiny}
+    \lstinputlisting[language=bash]{code/max_of_three_console.txt}
+\end{tabular} 
+\end{table}
+\end{frame}
+
+\subsection{autocomplete}
+\begin{frame}
+\frametitle{Take the advantages offered by ipdb with \textit{\textbf{TAB}} (autocomplete)}
 Blablabla
 \end{frame}
 
@@ -189,9 +201,19 @@ Blablabla
 \section{Let's practice!}
 \begin{frame}
 \frametitle{Let's practice!}	
-First some small exercises\\
 
-Then CodeFights!
+\begin{enumerate}
+    \item First solve the \textbf{exercises} I prepared for this session (based on some CodeFights problems)
+        \begin{itemize}
+            \item Please download them from \url{https://github.com/pyladies-bcn/debugging_in_python}
+        \end{itemize}
+    \item Then let's play \textbf{CodeFights}
+        \begin{itemize}
+            \item If you fail a problem, try to copy the code in a file and use \textbf{ipdb} to solve it!
+            \item or we can play a \textbf{Tournament} instead!
+        \end{itemize}
+\end{enumerate}
+
 \end{frame}
 
 

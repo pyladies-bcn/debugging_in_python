@@ -24,47 +24,50 @@
 \headcommand {\beamer@subsectionentry {0}{3}{1}{6}{ipdb.set\_trace()}}\headcommand {\beamer@subsectionpages {6}{5}}
 \headcommand {\slideentry {3}{1}{1}{6/6}{ipdb.set\_trace()}{0}}
 \headcommand {\beamer@framepages {6}{6}}
-\headcommand {\beamer@subsectionentry {0}{3}{2}{7}{next}}\headcommand {\beamer@subsectionpages {6}{6}}
-\headcommand {\slideentry {3}{2}{1}{7/7}{next}{0}}
+\headcommand {\beamer@subsectionentry {0}{3}{2}{7}{autocomplete}}\headcommand {\beamer@subsectionpages {6}{6}}
+\headcommand {\slideentry {3}{2}{1}{7/7}{autocomplete}{0}}
 \headcommand {\beamer@framepages {7}{7}}
-\headcommand {\beamer@subsectionentry {0}{3}{3}{8}{repeat}}\headcommand {\beamer@subsectionpages {7}{7}}
-\headcommand {\slideentry {3}{3}{1}{8/8}{repeat}{0}}
+\headcommand {\beamer@subsectionentry {0}{3}{3}{8}{next}}\headcommand {\beamer@subsectionpages {7}{7}}
+\headcommand {\slideentry {3}{3}{1}{8/8}{next}{0}}
 \headcommand {\beamer@framepages {8}{8}}
-\headcommand {\beamer@subsectionentry {0}{3}{4}{9}{quit}}\headcommand {\beamer@subsectionpages {8}{8}}
-\headcommand {\slideentry {3}{4}{1}{9/9}{quit}{0}}
+\headcommand {\beamer@subsectionentry {0}{3}{4}{9}{repeat}}\headcommand {\beamer@subsectionpages {8}{8}}
+\headcommand {\slideentry {3}{4}{1}{9/9}{repeat}{0}}
 \headcommand {\beamer@framepages {9}{9}}
-\headcommand {\beamer@subsectionentry {0}{3}{5}{10}{print}}\headcommand {\beamer@subsectionpages {9}{9}}
-\headcommand {\slideentry {3}{5}{1}{10/10}{print}{0}}
+\headcommand {\beamer@subsectionentry {0}{3}{5}{10}{quit}}\headcommand {\beamer@subsectionpages {9}{9}}
+\headcommand {\slideentry {3}{5}{1}{10/10}{quit}{0}}
 \headcommand {\beamer@framepages {10}{10}}
-\headcommand {\beamer@subsectionentry {0}{3}{6}{11}{continue}}\headcommand {\beamer@subsectionpages {10}{10}}
-\headcommand {\slideentry {3}{6}{1}{11/11}{continue}{0}}
+\headcommand {\beamer@subsectionentry {0}{3}{6}{11}{print}}\headcommand {\beamer@subsectionpages {10}{10}}
+\headcommand {\slideentry {3}{6}{1}{11/11}{print}{0}}
 \headcommand {\beamer@framepages {11}{11}}
-\headcommand {\beamer@subsectionentry {0}{3}{7}{12}{list}}\headcommand {\beamer@subsectionpages {11}{11}}
-\headcommand {\slideentry {3}{7}{1}{12/12}{list}{0}}
+\headcommand {\beamer@subsectionentry {0}{3}{7}{12}{continue}}\headcommand {\beamer@subsectionpages {11}{11}}
+\headcommand {\slideentry {3}{7}{1}{12/12}{continue}{0}}
 \headcommand {\beamer@framepages {12}{12}}
-\headcommand {\beamer@subsectionentry {0}{3}{8}{13}{step into}}\headcommand {\beamer@subsectionpages {12}{12}}
-\headcommand {\slideentry {3}{8}{1}{13/13}{step into}{0}}
+\headcommand {\beamer@subsectionentry {0}{3}{8}{13}{list}}\headcommand {\beamer@subsectionpages {12}{12}}
+\headcommand {\slideentry {3}{8}{1}{13/13}{list}{0}}
 \headcommand {\beamer@framepages {13}{13}}
-\headcommand {\beamer@subsectionentry {0}{3}{9}{14}{return}}\headcommand {\beamer@subsectionpages {13}{13}}
-\headcommand {\slideentry {3}{9}{1}{14/14}{return}{0}}
+\headcommand {\beamer@subsectionentry {0}{3}{9}{14}{step into}}\headcommand {\beamer@subsectionpages {13}{13}}
+\headcommand {\slideentry {3}{9}{1}{14/14}{step into}{0}}
 \headcommand {\beamer@framepages {14}{14}}
-\headcommand {\beamer@subsectionentry {0}{3}{10}{15}{some advice}}\headcommand {\beamer@subsectionpages {14}{14}}
-\headcommand {\slideentry {3}{10}{1}{15/15}{some advice}{0}}
+\headcommand {\beamer@subsectionentry {0}{3}{10}{15}{return}}\headcommand {\beamer@subsectionpages {14}{14}}
+\headcommand {\slideentry {3}{10}{1}{15/15}{return}{0}}
 \headcommand {\beamer@framepages {15}{15}}
-\headcommand {\sectionentry {4}{Sources and references}{16}{Sources and references}{0}}
-\headcommand {\beamer@sectionpages {6}{15}}
-\headcommand {\beamer@subsectionpages {15}{15}}
-\headcommand {\slideentry {4}{0}{2}{16/16}{}{0}}
+\headcommand {\beamer@subsectionentry {0}{3}{11}{16}{some advice}}\headcommand {\beamer@subsectionpages {15}{15}}
+\headcommand {\slideentry {3}{11}{1}{16/16}{some advice}{0}}
 \headcommand {\beamer@framepages {16}{16}}
-\headcommand {\sectionentry {5}{Let's practice!}{17}{Let's practice!}{0}}
-\headcommand {\beamer@sectionpages {16}{16}}
+\headcommand {\sectionentry {4}{Sources and references}{17}{Sources and references}{0}}
+\headcommand {\beamer@sectionpages {6}{16}}
 \headcommand {\beamer@subsectionpages {16}{16}}
-\headcommand {\slideentry {5}{0}{3}{17/17}{}{0}}
+\headcommand {\slideentry {4}{0}{2}{17/17}{}{0}}
 \headcommand {\beamer@framepages {17}{17}}
-\headcommand {\slideentry {5}{0}{4}{18/18}{}{0}}
+\headcommand {\sectionentry {5}{Let's practice!}{18}{Let's practice!}{0}}
+\headcommand {\beamer@sectionpages {17}{17}}
+\headcommand {\beamer@subsectionpages {17}{17}}
+\headcommand {\slideentry {5}{0}{3}{18/18}{}{0}}
 \headcommand {\beamer@framepages {18}{18}}
-\headcommand {\beamer@partpages {1}{18}}
-\headcommand {\beamer@subsectionpages {17}{18}}
-\headcommand {\beamer@sectionpages {17}{18}}
-\headcommand {\beamer@documentpages {18}}
-\headcommand {\def \inserttotalframenumber {18}}
+\headcommand {\slideentry {5}{0}{4}{19/19}{}{0}}
+\headcommand {\beamer@framepages {19}{19}}
+\headcommand {\beamer@partpages {1}{19}}
+\headcommand {\beamer@subsectionpages {18}{19}}
+\headcommand {\beamer@sectionpages {18}{19}}
+\headcommand {\beamer@documentpages {19}}
+\headcommand {\def \inserttotalframenumber {19}}
